@@ -1,5 +1,6 @@
 
-import { BrandsLogo } from "./components/brandsLogo/page";
+
+import { BrandsLogo } from "./components/brandslogo/page";
 import { Hero } from "./components/hero/page"
 import NewArrival from "./components/newarrival/page";
 
@@ -9,6 +10,7 @@ export default function Home() {
   <div>
     <Hero />
     <BrandsLogo />
+   
     <NewArrival />
 
   </div>
