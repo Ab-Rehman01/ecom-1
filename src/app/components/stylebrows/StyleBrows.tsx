@@ -20,7 +20,7 @@ const categories = [
   {
     id: 'party',
     name: 'Party',
-    image: '/browse/party.png',
+    image: '/party.png',
     href: '/products'
   },
   {
