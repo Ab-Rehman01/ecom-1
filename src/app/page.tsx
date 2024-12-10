@@ -1,22 +1,17 @@
-
-
-
-import { BrandsLogo } from "./components/brandslogo/page";
-import { Hero } from "./components/hero/page"
-import NewArrival from "./components/newarrival/page";
+import { BrandsLogo } from "./components/brandsLogo/BrandLogo";
+import { Hero } from "./components/hero/Hero";
+import NewArrival from "./components/newarrival/NewArrival";
 
 export default function Home() {
   return (
-  <>
-  <div>
-    <Hero />
-  <BrandsLogo />
-   
-    <NewArrival />
+    <>
+      <div>
+        <Hero />
+        <BrandsLogo />
 
-  </div>
-  </>
-       
+        <NewArrival />
+      </div>
+    </>
   );
 }
 
@@ -25,12 +20,12 @@ export default function Home() {
 // export default function Home() {
 //   return (
 //     <>
-     
+
 //       <div>
 //         <Hero />
-       
+
 //       </div>
 //     </>
-   
+
 //   );
 // }
