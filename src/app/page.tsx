@@ -2,6 +2,7 @@ import { BrandsLogo } from "./components/brandsLogo/BrandLogo";
 import { Hero } from "./components/hero/Hero";
 import NewArrival from "./components/newarrival/NewArrival";
 import StyleBrows from "./components/stylebrows/StyleBrows";
+import Testimonials from "./components/testimonial/TestImonial";
 import TopSelling from "./components/topSelling/TopSelling";
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
         <NewArrival />
         <TopSelling />
         <StyleBrows />
+        <Testimonials />
       </div>
     </>
   );

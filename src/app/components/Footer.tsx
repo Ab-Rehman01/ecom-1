@@ -41,11 +41,11 @@ const socialLinks = [
 ]
 
 const paymentMethods = [
-  { name: 'Visa', image: '/payments/visa.svg' },
-  { name: 'Mastercard', image: '/payments/mastercard.svg' },
-  { name: 'PayPal', image: '/payments/paypal.svg' },
-  { name: 'Apple Pay', image: '/payments/pay.svg' },
-  { name: 'Google Pay', image: '/payments/g-pay.svg' },
+  { name: 'Visa', image: '/visa.svg' },
+  { name: 'Mastercard', image: '/mastercard.svg' },
+  { name: 'PayPal', image: '/paypal.svg' },
+  { name: 'Apple Pay', image: '/pay.svg' },
+  { name: 'Google Pay', image: '/g-pay.svg' },
 ]
 
 export default function Footer() {
@@ -59,7 +59,7 @@ export default function Footer() {
 
   return (
     <footer className="relative mt-32 bg-[#F0F0F0] pt-32">
-      {/* Newsletter Section - Positioned half outside the footer */}
+      
       <div className="absolute -top-24 left-1/2 w-full max-w-[1240px] -translate-x-1/2 px-4">
         <div className="rounded-[32px] bg-black p-6 md:p-8">
           <div className="md:flex md:items-center md:justify-between md:gap-8">
@@ -91,10 +91,9 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Footer Content */}
-      <div className="mx-auto max-w-[1240px] px-4 pb-8 pt-16">
+          <div className="mx-auto max-w-[1240px] px-4 pb-8 pt-16">
         <div className="grid gap-8 grid-cols-2 lg:grid-cols-5 mt-10 lg:mt-0">
-          {/* Shop.co Info */}
+        
           <div className="lg:col-span-1">
             <h2 className={`${integralCF.className} text-2xl font-bold`}>SHOP.CO</h2>
             <p className="mt-4 text-sm text-gray-600">
@@ -113,7 +112,7 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Company Links */}
+
           <div>
             <h3 className="font-medium">COMPANY</h3>
             <ul className="mt-4 space-y-3">
@@ -127,7 +126,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Help Links */}
+         
           <div>
             <h3 className="font-medium">HELP</h3>
             <ul className="mt-4 space-y-3">
@@ -141,7 +140,6 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* FAQ Links */}
           <div>
             <h3 className="font-medium">FAQ</h3>
             <ul className="mt-4 space-y-3">
@@ -155,7 +153,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Resources Links */}
+         
           <div>
             <h3 className="font-medium">RESOURCES</h3>
             <ul className="mt-4 space-y-3">
@@ -170,7 +168,7 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Footer Bottom */}
+ 
         <div className="mt-12 flex flex-col items-center justify-between border-t border-gray-200 pt-8 md:flex-row">
           <p className="mb-4 text-sm text-gray-600 md:mb-0">
             Shop.co © 2000-2023, All Rights Reserved
