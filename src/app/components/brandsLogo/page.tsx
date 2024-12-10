@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-export function Brands() {
+export function BrandsLogo() {
   return (
     <div className="w-full bg-black py-6 lg:py-8">
       <div className="max-w-[1400px] mx-auto px-4 lg:px-8">
