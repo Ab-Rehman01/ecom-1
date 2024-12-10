@@ -1,5 +1,5 @@
 
-import { BrandsLogo } from "./components/brandslogo/page";
+import { BrandsLogo } from "./components/brandsLogo/page";
 import { Hero } from "./components/hero/page"
 import NewArrival from "./components/newarrival/page";
 
