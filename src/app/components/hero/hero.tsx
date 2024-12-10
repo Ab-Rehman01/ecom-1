@@ -7,7 +7,7 @@ export function Hero() {
   return (
     <section className="w-full bg-[#F2F0F1] min-h-screen">
       <div className="flex flex-col lg:flex-row items-center max-w-[1400px] mx-auto">
-        {/* Left Content */}
+        {/* Left */}
         <div className="w-full lg:w-1/2 flex flex-col justify-center px-6 lg:px-20 py-12 lg:py-20">
           <h1 className={cn(
             "text-[38px] md:text-[56px] lg:text-[58px] font-bold leading-[1.1]",
@@ -25,7 +25,7 @@ export function Hero() {
             Shop Now
           </Link>
 
-          {/* Stats Section - Visible on all screens */}
+          {/* Stats Section */}
           <div className="grid grid-cols-3 gap-4 mt-12">
             <div className="text-center">
               <div className="font-bold text-xl lg:text-2xl">200+</div>
@@ -43,9 +43,9 @@ export function Hero() {
         </div>
 
         {/* Right Image */}
-        <div className="relative w-full lg:w-[50%] h-[500px] lg:h-screen">
+        <div className="relative w-full lg:w-[60%] h-[500px] lg:h-screen">
           <Image
-            src="/images/hero1.jpeg"
+            src="/hero1.jpeg"
             alt="Fashion Models"
             fill
             className="object-cover lg:object-contain lg:object-right-top"
