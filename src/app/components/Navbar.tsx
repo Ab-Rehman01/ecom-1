@@ -22,10 +22,10 @@ export default function Navbar() {
 
           {/* Navigation Links */}
           <div className="hidden md:flex space-x-7">
-            <Link href="/" className="text-gray-600 hover:text-blue-600 transition">Shop</Link>
+            <Link href="/products" className="text-gray-600 hover:text-blue-600 transition">Shop</Link>
             <Link href="/products" className="text-gray-600 hover:text-blue-600 transition">On Sale</Link>
-            <Link href="/about" className="text-gray-600 hover:text-blue-600 transition">New Arrivals</Link>
-            <Link href="/contact" className="text-gray-600 hover:text-blue-600 transition">Brands</Link>
+            <Link href="/newarrival" className="text-gray-600 hover:text-blue-600 transition">New Arrivals</Link>
+            <Link href="/brands" className="text-gray-600 hover:text-blue-600 transition">Brands</Link>
           </div>
 
           {/* Search Bar */}
