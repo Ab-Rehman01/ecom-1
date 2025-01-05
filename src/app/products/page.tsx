@@ -1,7 +1,7 @@
 import { Metadata } from 'next'
 import { Suspense } from 'react'
 //import Loader from '@/components/Loader'
-import pro-grid from '@/components/pro-grid'
+import pro-grid from '@/components/productgrid/pro-grid'
 
 export const metadata: Metadata = {
   title: 'Our Products | SHOP.CO',
