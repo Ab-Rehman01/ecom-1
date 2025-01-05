@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   },
 }
 
-export default function ProductsPage() {
+export default function Products() {
   return (
       <Suspense fallback={<div>{<Loader />}</div>}>
         <pro-gride />
