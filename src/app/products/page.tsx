@@ -25,7 +25,7 @@ export const metadata: Metadata = {
 export default function ProductsPage() {
   return (
       <Suspense fallback={<div>{<Loader />}</div>}>
-        <pro-grid/>
+        <pro-grid />
       </Suspense>
  
   )
