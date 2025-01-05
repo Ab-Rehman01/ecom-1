@@ -1,7 +1,7 @@
 import { Metadata } from 'next'
 import { Suspense } from 'react'
 //import Loader from '@/components/Loader'
-import productsgrid from '@/components/products/productsgrid'
+import productsgrid from '@/components/productgrid'
 
 export const metadata: Metadata = {
   title: 'Our Products | SHOP.CO',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
 export default function ProductsPage() {
   return (
       <Suspense fallback={<div>{<Loader />}</div>}>
-        <projectsgrid/>
+        <projectgrid/>
       </Suspense>
  
   )
