@@ -128,7 +128,7 @@ const sortOptions = [
   { label: "Price: High to Low", value: "price-high-low" },
 ];
 
-export function ProGrid() {
+export function ProGride() {
   const [isFilterOpen, setIsFilterOpen] = useState(false);
   const [selectedSort, setSelectedSort] = useState(sortOptions[0]);
   const router = useRouter();
