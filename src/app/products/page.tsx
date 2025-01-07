@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import { Suspense } from 'react';
-import { ProGrid } from '@/components/productsgrid/proGrid';
+import { ProGrid } from '@/components/productsgrid/ProGrid';
 
 export const metadata: Metadata = {
   title: 'Our Products | SHOP.CO',
